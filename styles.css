@@ -15,11 +15,14 @@
 
 body
 {
-	font-family:'Raleway'
+	font-family:'Raleway'; 
+    margin: 50px; 
+    max-width: 1440px;
+    border: solid black;
 }
 
 /*header*/
-/*
+
 header 
 {
     display: flex; 
@@ -29,16 +32,48 @@ header
 .liens
 {
     display: flex; 
-    flex-direction: row-reverse;
+    flex-direction: row-reverse; 
+    
 }
 
+
+
+li
+{
+    display: block;
+    flex-direction: row;
+    padding: 1em;
+    width: 120px;
+    
+}
+
+li:hover
+{
+    color: #0065FC;
+    border-top: solid #0065FC;
+}
 .liens nav ul
 {
     display: flex;
+    color: #101010;
+    
+        
 }
-*/
 
-header
+.inscription
+{
+    color: #0065FC;
+    padding: 1em;
+    width: 120px;
+}
+
+.inscription:hover
+{
+    border-top: solid #0065FC; 
+}
+
+/*
+header version mobile
 {
     position: relative;
 }
@@ -60,13 +95,86 @@ header nav ul
     justify-content: space-between;
     margin-top: 50px;
 }
+*/
+
+
 /*Section resultat de recherches*/
+#search
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    padding: 0em;
+    margin-top: 2.5em;
+    margin-bottom: 2em;
+}
+
+#search h1 
+{
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+#search p
+{
+    margin-bottom: 15px;
+    font-size: 0.8em;
+}
+
+.bouton_recherche
+{
+   max-width: 425px;
+   height: 50px;
+   display: flex;
+   justify-content: space-between;
+   border: 1px solid #F2F2F2;
+   border-radius: 30px;
+   
+}  
+
+.svg_map
+{
+    width: 20px; 
+    height: 20px; 
+    background-color: #F2F2F2; 
+    padding:  15px 15px 15px 15px;
+    border-bottom-left-radius: 15px;
+    border-top-left-radius: 15px;
+}
+
+#rechercher
+{
+  border: none;
+  font-size: 1em; 
+  font-weight: bold;
+  font-family: 'Raleway';
+  padding-left: 5px;
+  color: black;
+  
+}
+
+.bouton
+{
+    padding: 10px;
+    background-color: #0065FC;
+    font-family: 'Raleway';
+    color: #F2F2F2;
+    font-size: 0.9em;
+    font-weight: bold;
+    border: none;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+
+    
+    
+}
 
 /*Section activités*/
 
 /*footer*/
 
-.svg_filtre, .svg_info, .svg_map
+.svg_filtre, .svg_info 
 {
     color: #0065FC; width: 20px; height: 20px; background-color: #DEEBFF; border-radius: 100%; padding:  15px 15px;
 }
