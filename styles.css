@@ -129,8 +129,8 @@ header nav ul
    display: flex;
    justify-content: space-between;
    border: 1px solid #F2F2F2;
-   border-radius: 30px;
-   
+   border-bottom-left-radius: 15px;
+   border-top-left-radius: 15px;
 }  
 
 .svg_map
@@ -165,19 +165,68 @@ header nav ul
     border: none;
     border-top-right-radius: 15px;
     border-bottom-right-radius: 15px;
+}
 
+/*filtre*/
+
+#blockfiltre
+{
+    font-family: 'Raleway';
+    display: flex;
+    font-size: 1em; 
+    font-weight: bold;
     
+}
+
+ .word
+{
+    display: flex;
+    width: 5%;
+    justify-content: center;
+    align-items: center;
+    margin-right: 1em;
+       
+}
+
+
+.filtre
+{
+   display: flex;
+   flex-direction: row;
+   border: 2px solid #D9D9D9;
+   margin-right: 25px;
+   padding-right: 10px;
+   border-top-left-radius: 30px;
+   border-bottom-left-radius: 30px;
+   border-left: transparent;
+   height: 53px;
+   border-top-right-radius: 30px;
+   border-bottom-right-radius: 30px;
+   justify-content: space-between;
+   align-items: center;
+}
+
+
+
+.svg_filtre, .svg_info 
+{
+    color: #0065FC; 
+    width: 25px;
+    height: 25px; 
+    background-color: #DEEBFF;
+    border-radius: 100%;
+    padding:  15px ;
+    margin-right: 5px;
+    
+
     
 }
 
 /*Section activités*/
 
-/*footer*/
 
-.svg_filtre, .svg_info 
-{
-    color: #0065FC; width: 20px; height: 20px; background-color: #DEEBFF; border-radius: 100%; padding:  15px 15px;
-}
+
+
 
 .svg_chart_line
 {
@@ -194,3 +243,4 @@ header nav ul
     color: #D9D9D9; width: 20px; height: 20px;
 }
 
+/*footer*/
