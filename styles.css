@@ -36,8 +36,6 @@ header
     
 }
 
-
-
 li
 {
     display: block;
@@ -171,24 +169,25 @@ header nav ul
 
 #blockfiltre
 {
-    font-family: 'Raleway';
     display: flex;
+    justify-content:left ;
+    flex-direction: row;
+    align-items: center;
     font-size: 1em; 
     font-weight: bold;
+    
+    margin-bottom: 20px;
+   
     
 }
 
  .word
 {
-    display: flex;
     width: 5%;
-    justify-content: center;
-    align-items: center;
     margin-right: 1em;
-       
-}
-
-
+    
+  }
+  
 .filtre
 {
    display: flex;
@@ -204,11 +203,18 @@ header nav ul
    border-bottom-right-radius: 30px;
    justify-content: space-between;
    align-items: center;
+   
 }
 
+.filtre:hover
+{
+    border: 2px solid white;
+    background-color: #0065FC;
+    color: white;
+    box-shadow: 6px 6px 6px #404040;
+}
 
-
-.svg_filtre, .svg_info 
+.svg_filtre  
 {
     color: #0065FC; 
     width: 25px;
@@ -218,19 +224,163 @@ header nav ul
     padding:  15px ;
     margin-right: 5px;
     
+}
 
+/*infobule*/
+.infobule
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    align-items: center;
+    padding-bottom: 2em;
+}
+
+.svg_info
+{
+    color: #0065FC; 
+    width: 8px;
+    height: 8px; 
+    border: 2px solid #D9D9D9;
+    border-radius: 100%;
+    padding:  5px ;
+    margin-right: 5px;
+}
+
+
+
+/* Section 1 Hébergement à Marseille */
+
+#result_search
+{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 60px;
+
+
+}
+
+#hebergement
+{
+    max-width: auto;
+    background-color: #F2F2F2;
+    padding-top: 45px;
+    padding-left: 35px;
+    padding-right: 15px;
+    border-radius: 30px;
+}
+
+#img_resultat
+{
+   display: flex;
+    flex-direction: column;
+   flex-wrap: wrap;
+   justify-content: space-between;
+   align-items: center;
+   
+   margin-top: 35px;
+   
+   
+}
+
+#img_resultat span
+{
+    display: flex;
+    flex-direction: row;
+}
+
+.img_res
+{
+    display: block;
+    border: 5px solid white;
+    border-radius: 30px;
+    background-color: white;
+    box-shadow: 6px 6px 6px #E7E7E7;
+    overflow: hidden;
+    height: 190px;
+    width: 250px;
+    margin-bottom: 20px;
+    margin-right: 20px;
+
+}
+
+
+.img_res a.img1
+{
+    display: block;
+    background-image: url('images/hebergements/250_px/Background.jpg');
+    height: 115px;
+    
+    background-size: cover;
+}
+
+.img_res a.img2
+{
+    display: block;
+    background-image: url('images/hebergements/250_px/hotel_du_port.jpg');
+    height: 115px;
+    
+    background-size: cover;
     
 }
 
-/*Section activités*/
-
-
-
-
-
-.svg_chart_line
+.img_res a.img3
 {
-    width: 20px; height: 20px;
+    display: block;
+    background-image: url('images/hebergements/250_px/les_mouettes.jpg');
+    height: 115px;
+    background-size: cover;
+}
+
+.img_res a.img4
+{
+    display: block;
+    background-image: url('images/hebergements/250_px/de_la_mer.jpg');
+    height: 115px;
+    background-size: cover;
+}
+
+.img_res a.img5
+{
+    display: block;
+    background-image: url('images/hebergements/250_px/le_panier.jpg');
+    height: 115px;
+    background-size: cover;
+}
+
+.img_res a.img6
+{
+    display: block;
+    background-image: url('images/hebergements/250_px/chez_amina.jpg');
+    height: 115px;
+    background-size: cover;
+}
+
+.img_res h3
+{
+    font-weight: bold;
+}
+figcaption
+{
+    padding-left: 20px;
+    padding-bottom: 10px;
+}
+
+.boutton_plus
+{
+    font-weight: bold;
+    text-decoration: none;
+    padding-bottom: 20px;
+}
+
+.boutton_plus a:link
+{
+    color: #101010;
+}
+
+.boutton_plus a:visited
+{
+    color: #0065FC;
 }
 
 .svg_star_blue
@@ -241,6 +391,138 @@ header nav ul
 .svg_star_grey
 {
     color: #D9D9D9; width: 20px; height: 20px;
+}
+
+
+
+/*populaire*/
+
+
+#titre_populaire
+{
+    
+    border-radius: 30px;
+    background-color: #F2F2F2;
+    margin-left: 15px;
+    padding-top: 45px;
+    padding-left: 35px;
+    padding-right: 35px;
+    
+    width: 350px;
+}
+
+#titre_populaire h2
+{
+    display: flex;
+    justify-content: space-between;
+}
+
+.svg_chart_line
+{
+    width: 20px; height: 20px;
+}
+
+.pub_img_pop
+{
+    display: flex;
+    border: 5px solid white;
+    border-radius: 30px;
+    background-color: white;
+    box-shadow: 6px 6px 6px #E7E7E7;
+    overflow: hidden;
+    margin-top: 15px;
+    align-items: stretch;
+    }
+
+    .pub_img_pop a.img1
+    {
+        display: block;
+        background-image: url('images/hebergements/335_px/hotel_le_soleil_du_matin.jpg');
+        width: 133px;
+        background-size: cover;
+    }
+
+    .pub_img_pop a.img2
+    {
+        display: block;
+        background-image: url('images/hebergements/335_px/au_coeur.jpg');
+        width: 133px;
+        background-size: cover;
+    }
+
+.pub_img_pop a.img3
+    {
+        display: block;
+        background-image: url('images/hebergements/335_px/tout_bleu.jpg');
+        width: 133px;
+        background-size: cover;
+    }
+    
+.pub_img_pop p.etoiles
+{
+    margin-top: 30px;
+}
+
+/*Section activités*/
+
+.img_activites
+{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 35px;
+}
+
+.img_activ_big
+{
+    
+    border: 5px solid white;
+    border-radius: 30px;
+    background-color: white;
+    box-shadow: 6px 6px 6px #E7E7E7;
+    overflow: hidden;
+    
+    align-items: stretch;
+    height: 445px;
+    width: 300px;
+}
+
+.img_activ_big a.img1
+{
+    display: block;
+    background-image: url('images/activites/port.jpg');
+    
+    height: 388px;
+    background-size: cover;
+}
+
+.img_activ_big a.img4
+{
+    display: block;
+    background-image: url('images/activites/calanques.jpg');
+    
+    height: 388px;
+    background-size: cover;
+}
+
+
+.block_img_small
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.img_activ_small
+{
+    border: 5px solid white;
+    border-radius: 30px;
+    background-color: white;
+    box-shadow: 6px 6px 6px #E7E7E7;
+    overflow: hidden;
+    
+    
+    
+    width: 300px;
 }
 
 /*footer*/
