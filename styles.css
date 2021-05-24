@@ -16,7 +16,7 @@
 body
 {
 	font-family:'Raleway'; 
-    margin: 50px; 
+    padding: 50px; 
     max-width: 1440px;
     border: solid black;
 }
@@ -583,4 +583,32 @@ figcaption
 footer
 {
     background-color: #F2F2F2;
+    display: flex;
+    height: 215px;
+    
+}
+
+footer .a_propos, footer .nos_hebergements, footer .assistance
+{
+    padding-right: 225px;
+}
+
+footer h2
+{
+    font-size: 1em;
+    font-weight: bold;
+    margin-top: 2.5em;
+    margin-bottom: 1em;
+}
+
+footer p
+{
+    margin-bottom: 0.7em;
+}
+
+
+
+footer .a_propos a:hover
+{
+    color: black;
 }
