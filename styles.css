@@ -465,11 +465,23 @@ figcaption
 
 /*Section activités*/
 
+#activites
+{
+    padding-bottom: 60px;
+    
+}
+
 .img_activites
 {
     display: flex;
     justify-content: space-between;
     margin-top: 35px;
+    
+}
+
+.img_activites figcaption
+{
+    font-weight: bold;
 }
 
 .img_activ_big
@@ -480,28 +492,28 @@ figcaption
     background-color: white;
     box-shadow: 6px 6px 6px #E7E7E7;
     overflow: hidden;
-    
     align-items: stretch;
-    height: 445px;
-    width: 300px;
 }
 
 .img_activ_big a.img1
 {
     display: block;
     background-image: url('images/activites/port.jpg');
-    
-    height: 388px;
+    width: 295px;
+    height: 390px;
     background-size: cover;
+    margin-bottom: 15px;
+    
 }
 
 .img_activ_big a.img4
 {
     display: block;
     background-image: url('images/activites/calanques.jpg');
-    
-    height: 388px;
+    width: 300px;
+    height: 390px;
     background-size: cover;
+    margin-bottom: 15px;
 }
 
 
@@ -519,10 +531,56 @@ figcaption
     background-color: white;
     box-shadow: 6px 6px 6px #E7E7E7;
     overflow: hidden;
+    align-items: stretch;
+}
+
+.img_activ_small a.img2
+{
+    display: block;
+    background-image: url('images/activites/pomegues.jpg');
+    height: 180px;
+    width: 305px;
+    background-size: cover;
+    margin-bottom: 15px;
     
+}
+
+.img_activ_small a.img3
+{
+    display: block;
+    background-image: url('images/activites/frioul.jpg');
+    height: 110px;
+    background-size: cover;
+    margin-bottom: 15px;
     
+}
+
+.img_activ_small a.img5
+{
+    display: block;
+    background-image: url('images/activites/notre_dame.jpg');
+    height: 140px;
+    width: 305px;
+    background-size: cover;
+    margin-bottom: 15px;
     
-    width: 300px;
+}
+
+
+.img_activ_small a.img6
+{
+    display: block;
+    background-image: url('images/activites/longchamp.jpg');
+    height: 152px;
+    width: 305px;
+    background-size: cover;
+    margin-bottom: 15px;
+    
 }
 
 /*footer*/
+
+footer
+{
+    background-color: #F2F2F2;
+}
