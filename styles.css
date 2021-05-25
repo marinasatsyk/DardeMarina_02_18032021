@@ -16,12 +16,26 @@
 body
 {
 	font-family:'Raleway'; 
-    padding: 50px; 
     max-width: 1440px;
     border: solid black;
 }
 
+header
+{
+    margin-top: 50px;
+}
+
+header, section, .infobule
+{
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+
+
 /*header*/
+
+
 
 header 
 {
@@ -105,6 +119,7 @@ header nav ul
     padding: 0em;
     margin-top: 2.5em;
     margin-bottom: 2em;
+    
 }
 
 #search h1 
@@ -364,6 +379,7 @@ figcaption
 {
     padding-left: 20px;
     padding-bottom: 10px;
+    padding-top: 10px;
 }
 
 .boutton_plus
@@ -591,6 +607,7 @@ footer
 footer .a_propos, footer .nos_hebergements, footer .assistance
 {
     padding-right: 225px;
+
 }
 
 footer h2
@@ -608,7 +625,7 @@ footer p
 
 
 
-footer .a_propos a:hover
+footer .a_propos 
 {
-    color: black;
+    margin-left: 50px;
 }
