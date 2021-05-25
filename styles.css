@@ -15,7 +15,14 @@
 
 body
 {
-	font-family:'Raleway'; 
+	width: auto;
+    font-family:'Raleway'; 
+    display: flex;
+    justify-content: center;
+}
+
+#balise_principle
+{
     max-width: 1440px;
     border: solid black;
 }
