@@ -849,15 +849,23 @@ figcaption
 
 @media all and (max-width: 1024px)
 {
+    
+    
     .img_activites
     {
         flex-direction: column;
+        align-items: center;
     }
 
-    .img_activ_big a.img1, .img_activ_big a.img4  
+    .img_activites figure
+    {
+        width: 305px;
+        height: 174px;
+    }
 
+    .img_activ_big a.img1, .img_activ_big a.img4, .img_activ_small a.img2, .img_activ_small a.img3, .img_activ_small a.img5, .img_activ_small a.img6
         {
-        width: 335px;
+        width: 305px;
         height: 110px;
         }
 
@@ -868,9 +876,13 @@ figcaption
         margin-left: 20px;
     }
 
+    .img_activ_big, .img_activ_small
+    {
+        margin-bottom: 1em;
+    }
 
 
-
+}
 /*footer*/
 
 footer
