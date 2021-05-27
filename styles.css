@@ -114,9 +114,10 @@ li:hover {
     li a.a_1 {
         position: absolute;
         left: 40px;
-    }
-    .menu li a:hover {
         color: #0065FC;
+    }
+    .menu li:first-child {
+        border-bottom: solid #0065FC;
     }
     section,
     .infobule {
@@ -397,35 +398,35 @@ li:hover {
     background-size: cover;
 }
 
-.img_res a.img2 {
+.img_res span.img2 {
     display: block;
     background-image: url('images/hebergements/250_px/hotel_du_port.jpg');
     height: 115px;
     background-size: cover;
 }
 
-.img_res a.img3 {
+.img_res span.img3 {
     display: block;
     background-image: url('images/hebergements/250_px/les_mouettes.jpg');
     height: 115px;
     background-size: cover;
 }
 
-.img_res a.img4 {
+.img_res span.img4 {
     display: block;
     background-image: url('images/hebergements/250_px/de_la_mer.jpg');
     height: 115px;
     background-size: cover;
 }
 
-.img_res a.img5 {
+.img_res span.img5 {
     display: block;
     background-image: url('images/hebergements/250_px/le_panier.jpg');
     height: 115px;
     background-size: cover;
 }
 
-.img_res a.img6 {
+.img_res span.img6 {
     display: block;
     background-image: url('images/hebergements/250_px/chez_amina.jpg');
     height: 115px;
@@ -446,6 +447,7 @@ figcaption {
     font-weight: bold;
     text-decoration: none;
     padding-bottom: 20px;
+    font-size: 1.3em;
 }
 
 .boutton_plus a:link {
@@ -453,7 +455,7 @@ figcaption {
 }
 
 .boutton_plus a:visited {
-    color: #0065FC;
+    color: #101010;
 }
 
 .svg_star_blue {
@@ -528,27 +530,29 @@ figcaption {
     overflow: hidden;
     margin-top: 15px;
     align-items: stretch;
+    text-decoration: none;
+    color: black;
 }
 
 .pub_img_pop figcaption {
     width: calc(100% - 153px);
 }
 
-.pub_img_pop a.img1 {
+.pub_img_pop span.img1 {
     display: block;
     background-image: url('images/hebergements/335_px/hotel_le_soleil_du_matin.jpg');
     width: 133px;
     background-size: cover;
 }
 
-.pub_img_pop a.img2 {
+.pub_img_pop span.img2 {
     display: block;
     background-image: url('images/hebergements/335_px/au_coeur.jpg');
     width: 133px;
     background-size: cover;
 }
 
-.pub_img_pop a.img3 {
+.pub_img_pop span.img3 {
     display: block;
     background-image: url('images/hebergements/335_px/tout_bleu.jpg');
     width: 133px;
@@ -601,9 +605,11 @@ figcaption {
     box-shadow: 6px 6px 6px #E7E7E7;
     overflow: hidden;
     align-items: stretch;
+    text-decoration: none;
+    color: black;
 }
 
-.img_activ_big a.img1 {
+.img_activ_big span.img1 {
     display: block;
     background-image: url('images/activites/port.jpg');
     width: 295px;
@@ -612,7 +618,7 @@ figcaption {
     margin-bottom: 15px;
 }
 
-.img_activ_big a.img4 {
+.img_activ_big span.img4 {
     display: block;
     background-image: url('images/activites/calanques.jpg');
     width: 300px;
@@ -634,9 +640,11 @@ figcaption {
     box-shadow: 6px 6px 6px #E7E7E7;
     overflow: hidden;
     align-items: stretch;
+    text-decoration: none;
+    color: black;
 }
 
-.img_activ_small a.img2 {
+.img_activ_small span.img2 {
     display: block;
     background-image: url('images/activites/pomegues.jpg');
     height: 180px;
@@ -645,7 +653,7 @@ figcaption {
     margin-bottom: 15px;
 }
 
-.img_activ_small a.img3 {
+.img_activ_small span.img3 {
     display: block;
     background-image: url('images/activites/frioul.jpg');
     height: 110px;
@@ -653,7 +661,7 @@ figcaption {
     margin-bottom: 15px;
 }
 
-.img_activ_small a.img5 {
+.img_activ_small span.img5 {
     display: block;
     background-image: url('images/activites/notre_dame.jpg');
     height: 140px;
@@ -662,7 +670,7 @@ figcaption {
     margin-bottom: 15px;
 }
 
-.img_activ_small a.img6 {
+.img_activ_small span.img6 {
     display: block;
     background-image: url('images/activites/longchamp.jpg');
     height: 152px;
@@ -680,12 +688,12 @@ figcaption {
         width: 305px;
         height: 174px;
     }
-    .img_activ_big a.img1,
-    .img_activ_big a.img4,
-    .img_activ_small a.img2,
-    .img_activ_small a.img3,
-    .img_activ_small a.img5,
-    .img_activ_small a.img6 {
+    .img_activ_big span.img1,
+    .img_activ_big span.img4,
+    .img_activ_small span.img2,
+    .img_activ_small span.img3,
+    .img_activ_small span.img5,
+    .img_activ_small span.img6 {
         width: 305px;
         height: 110px;
     }
