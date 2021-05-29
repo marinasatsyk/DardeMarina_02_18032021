@@ -70,7 +70,7 @@ li:hover {
 
 /*header version mobile*/
 
-@media all and (max-width: 1024px) {
+@media all and (max-width: 479px) {
     header {
         position: relative;
         margin-top: 20px;
@@ -200,7 +200,7 @@ li:hover {
     display: none;
 }
 
-@media all and (max-width: 1024px) {
+@media all and (max-width: 479px) {
     section {
         margin-left: 0;
         margin-right: 0;
@@ -214,10 +214,6 @@ li:hover {
     #search p {
         margin-left: 20px;
     }
-    /*.svg_map
-    {
-        position: absolute;
-    }*/
     .bouton_recherche {
         margin-left: 20px;
         margin-right: 20px;
@@ -288,7 +284,33 @@ li:hover {
     margin-right: 5px;
 }
 
-@media all and (max-width: 1024px) {
+@media (min-width: 480px) and (max-width: 1024px) {
+    #blockfiltre {
+        display: flex;
+        flex-direction: column;
+        justify-content: left;
+        font-size: 0.8em;
+    }
+    .word {
+        display: block;
+        width: auto;
+        font-size: 1.2em;
+        margin-bottom: 10px;
+        position: relative;
+        left: -300px;
+        justify-content: left;
+    }
+    .tous_filtre {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+    .filtre {
+        margin-bottom: 10px;
+    }
+}
+
+@media all and (max-width: 479px) {
     #blockfiltre {
         display: flex;
         flex-direction: column;
@@ -335,7 +357,16 @@ li:hover {
     margin-right: 5px;
 }
 
-@media all and (max-width: 1024px) {
+@media (min-width: 480px) and (max-width: 1024px) {
+    .infobule {
+        padding-left: 0;
+        padding-right: 0;
+        margin-left: 50px;
+        margin-right: 20px;
+    }
+}
+
+@media all and (max-width: 479px) {
     .infobule {
         padding-left: 0;
         padding-right: 0;
@@ -470,7 +501,27 @@ figcaption {
     height: 20px;
 }
 
-@media all and (max-width: 1024px) {
+@media (min-width: 480px) and (max-width: 1024px) {
+    #hebergement {
+        margin-bottom: 2em;
+        padding-left: 35px;
+        padding-right: 15px;
+    }
+    #result_search {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        margin-bottom: 60px;
+    }
+    #img_resultat {
+        flex-direction: row;
+    }
+    #img_resultat span {
+        flex-direction: column;
+    }
+}
+
+@media all and (max-width: 479px) {
     #result_search {
         display: flex;
         flex-direction: column-reverse;
@@ -563,7 +614,47 @@ figcaption {
     margin-top: 30px;
 }
 
-@media all and (max-width: 1024px) {
+@media (min-width: 480px) and (max-width: 1024px) {
+    #titre_populaire {
+        width: auto;
+        padding-left: 20px;
+        padding-right: 20px;
+        margin-left: 0;
+    }
+    .image_populaire {
+        display: flex;
+        justify-content: space-between;
+    }
+    .pub_img_pop {
+        display: block;
+        height: 190px;
+        width: 210px;
+        margin-bottom: 20px;
+    }
+    .pub_img_pop span.img1,
+    .pub_img_pop span.img2,
+    .pub_img_pop span.img3 {
+        height: 115px;
+        background-size: cover;
+        width: auto;
+    }
+    .pub_img_pop figcaption {
+        width: auto;
+        font-size: 0.8em;
+        padding-top: 2px;
+    }
+    .pub_img_pop p.etoiles {
+        margin-top: 2px;
+    }
+    .image_populaire .pub_img_pop:first-child {
+        margin-right: 20px;
+    }
+    .image_populaire .pub_img_pop:last-child {
+        margin-left: 20px;
+    }
+}
+
+@media all and (max-width: 479px) {
     #titre_populaire {
         border-radius: 0;
         margin-left: 0px;
@@ -679,7 +770,53 @@ figcaption {
     margin-bottom: 15px;
 }
 
-@media all and (max-width: 1024px) {
+@media (min-width: 480px) and (max-width: 1024px) {
+    .img_activites figure {
+        width: 305px;
+        height: 174px;
+    }
+    .img_activ_small span.img2,
+    .img_activ_small span.img3,
+    .img_activ_small span.img5,
+    .img_activ_small span.img6 {
+        width: 280px;
+        height: 110px;
+    }
+    .img_activ_big span.img1,
+    .img_activ_big span.img4 {
+        height: 280px;
+    }
+    .boutton_plus {
+        margin-left: 20px;
+    }
+    .img_activ_big,
+    .img_activ_small {
+        margin-bottom: 1em;
+        margin-right: 10px;
+    }
+    .img_activites .img_activ_big:first-child {
+        position: absolute;
+        top: 2200px;
+        left: 50px;
+        width: 280px;
+    }
+    .img_activites .img_activ_big:nth-child(3) {
+        position: absolute;
+        top: 2200px;
+        left: 420px;
+        width: 280px;
+    }
+    .img_activ_big span.img1,
+    .img_activ_big span.img4 {
+        width: 280px;
+        height: 110px;
+    }
+    .img_activ_big figcaption {
+        width: 280px;
+    }
+}
+
+@media all and (max-width: 479px) {
     .img_activites {
         flex-direction: column;
         align-items: center;
@@ -737,7 +874,21 @@ footer .a_propos {
     margin-left: 50px;
 }
 
-@media all and (max-width: 1024px) {
+@media (min-width: 480px) and (max-width: 1024px) {
+    footer {
+        height: auto;
+        justify-content: space-between;
+        margin-top: 200px;
+        padding-bottom: 25px;
+    }
+    footer .a_propos,
+    footer .nos_hebergements,
+    footer .assistance {
+        padding-right: 50px;
+    }
+}
+
+@media all and (max-width:479px) {
     footer {
         flex-direction: column;
         height: auto;
