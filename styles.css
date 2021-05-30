@@ -385,7 +385,6 @@ li:hover {
 }
 
 #hebergement {
-    max-width: auto;
     background-color: #F2F2F2;
     padding-top: 45px;
     padding-left: 35px;
@@ -781,10 +780,7 @@ figcaption {
     .img_activ_small span.img6 {
         width: 280px;
         height: 110px;
-    }
-    .img_activ_big span.img1,
-    .img_activ_big span.img4 {
-        height: 280px;
+        background-position-y: center;
     }
     .boutton_plus {
         margin-left: 20px;
@@ -810,6 +806,7 @@ figcaption {
     .img_activ_big span.img4 {
         width: 280px;
         height: 110px;
+        background-position-y: center;
     }
     .img_activ_big figcaption {
         width: 280px;
@@ -833,6 +830,7 @@ figcaption {
     .img_activ_small span.img6 {
         width: 305px;
         height: 110px;
+        background-position-y: center;
     }
     .boutton_plus {
         margin-left: 20px;
