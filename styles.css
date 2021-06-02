@@ -92,13 +92,6 @@ li:hover {
         text-align: right;
         width: 100%;
     }
-    /*.liens a.inscription
-    {
-        text-align: right;
-        display: block;
-        display: flex;
-        justify-content: right;
-    }*/
     header nav ul {
         display: flex;
     }
@@ -181,6 +174,7 @@ li:hover {
     font-family: 'Raleway';
     padding-left: 5px;
     color: black;
+    width: 160px;
 }
 
 .bouton,
@@ -225,6 +219,9 @@ li:hover {
     .bouton_2 {
         display: inline;
         padding: 0;
+        background-color: #0065FC;
+        background-image: url('images/search-solid.svg');
+        width: 50px;
     }
 }
 
@@ -401,7 +398,8 @@ li:hover {
     margin-top: 35px;
 }
 
-#img_resultat span {
+#img_resultat div.first_line,
+#img_resultat div.second_line {
     display: flex;
     flex-direction: row;
 }
@@ -467,7 +465,7 @@ li:hover {
     font-weight: bold;
 }
 
-figcaption {
+div.description {
     padding-left: 20px;
     padding-bottom: 10px;
     padding-top: 10px;
@@ -515,7 +513,8 @@ figcaption {
     #img_resultat {
         flex-direction: row;
     }
-    #img_resultat span {
+    #img_resultat div.first_line,
+    #img_resultat div.second_line {
         flex-direction: column;
     }
 }
@@ -543,7 +542,8 @@ figcaption {
         margin-right: 0;
         width: 335px;
     }
-    #img_resultat span {
+    #img_resultat div.first_line,
+    #img_resultat div.second_line {
         flex-direction: column;
     }
 }
@@ -584,7 +584,7 @@ figcaption {
     color: black;
 }
 
-.pub_img_pop figcaption {
+.pub_img_pop div.description {
     width: calc(100% - 153px);
 }
 
@@ -637,7 +637,7 @@ figcaption {
         background-size: cover;
         width: auto;
     }
-    .pub_img_pop figcaption {
+    .pub_img_pop div.description {
         width: auto;
         font-size: 0.8em;
         padding-top: 2px;
@@ -662,7 +662,7 @@ figcaption {
         padding-right: 20px;
         width: auto;
     }
-    .image_populaire figure {
+    .image_populaire {
         width: auto;
         height: 147px;
     }
@@ -676,6 +676,11 @@ figcaption {
 
 #activites {
     padding-bottom: 60px;
+    text-decoration: none;
+}
+
+#activites a {
+    text-decoration: none;
 }
 
 .img_activites {
@@ -684,18 +689,19 @@ figcaption {
     margin-top: 35px;
 }
 
-.img_activites figcaption {
+.img_activites h3 {
     font-weight: bold;
+    padding-left: 20px;
+    color: black;
 }
 
-.img_activ_big {
+.img_activites article {
     border: 5px solid white;
     border-radius: 30px;
     background-color: white;
     box-shadow: 6px 6px 6px #E7E7E7;
     overflow: hidden;
     align-items: stretch;
-    text-decoration: none;
     color: black;
 }
 
@@ -721,17 +727,6 @@ figcaption {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-}
-
-.img_activ_small {
-    border: 5px solid white;
-    border-radius: 30px;
-    background-color: white;
-    box-shadow: 6px 6px 6px #E7E7E7;
-    overflow: hidden;
-    align-items: stretch;
-    text-decoration: none;
-    color: black;
 }
 
 .img_activ_small span.img2 {
@@ -770,7 +765,7 @@ figcaption {
 }
 
 @media (min-width: 480px) and (max-width: 1024px) {
-    .img_activites figure {
+    .img_activites {
         width: 305px;
         height: 174px;
     }
@@ -808,7 +803,7 @@ figcaption {
         height: 110px;
         background-position-y: center;
     }
-    .img_activ_big figcaption {
+    .img_activ_big div.description {
         width: 280px;
     }
 }
@@ -818,7 +813,7 @@ figcaption {
         flex-direction: column;
         align-items: center;
     }
-    .img_activites figure {
+    .img_activites {
         width: 305px;
         height: 174px;
     }

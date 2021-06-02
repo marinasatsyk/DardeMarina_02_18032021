@@ -1,9 +1,9 @@
 <!DOCTYPE html>
-<html>
+<html lang="fr">
 
 <head>
     <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>Reservia</title>
     <link rel="stylesheet" type="text/css" href="styles.css">
 </head>
@@ -63,7 +63,9 @@
     <!-- bloc avec le filtre et information contient 2 conteners-->
 
     <section id="blockfiltre">
-        <div class="word">Filtres</div>
+        <h2 class="word">
+            Filtres
+        </h2>
 
         <div class="tous_filtre">
             <p class="filtre">
@@ -121,271 +123,287 @@
 
             <div id="img_resultat">
 
-                <span>
+                <div class="first_line">
                     <!--1eme img resultat mettre backround en css, texte en block 20% en bas-->
-                    <a href="#" class="img_res">
-                        <span class="img1">&nbsp;</span>
+                    <article>
+                        <a href="#" class="img_res">
 
-                <figcaption>
-                    <h3>Auberge la Cannebière</h3>
-                    <p>Nuit à partire de 25€</p>
+                            <span class="img1">&nbsp;</span>
 
-                    <p class="etoiles">
-                        <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="star" class="svg_star_blue" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512">
-                                    <path fill="currentColor"
-                                        d="M259.3 17.8L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0z">
-                                    </path>
-                                </svg>
+                            <div class="description">
+                                <h3>Auberge la Cannebière</h3>
+                                <p>Nuit à partire de 25€</p>
 
-                        <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="star" class="svg_star_blue" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512">
-                                    <path fill="currentColor"
-                                        d="M259.3 17.8L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0z">
-                                    </path>
-                                </svg>
+                                <p class="etoiles">
+                                    <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="star" class="svg_star_blue" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512">
+                                        <path fill="currentColor"
+                                            d="M259.3 17.8L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0z">
+                                        </path>
+                                    </svg>
 
-                        <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="star" class="svg_star_blue" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512">
-                                    <path fill="currentColor"
-                                        d="M259.3 17.8L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0z">
-                                    </path>
-                                </svg>
+                                    <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="star" class="svg_star_blue" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512">
+                                        <path fill="currentColor"
+                                            d="M259.3 17.8L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0z">
+                                        </path>
+                                    </svg>
 
-                        <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="star" class="svg_star_blue" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512">
-                                    <path fill="currentColor"
-                                        d="M259.3 17.8L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0z">
-                                    </path>
-                                </svg>
+                                    <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="star" class="svg_star_blue" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512">
+                                        <path fill="currentColor"
+                                            d="M259.3 17.8L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0z">
+                                        </path>
+                                    </svg>
 
-                        <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="star" class="svg_star_grey" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512">
-                                    <path fill="currentColor"
-                                        d="M259.3 17.8L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0z">
-                                    </path>
-                                </svg>
-                    </p>
-                </figcaption>
+                                    <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="star" class="svg_star_blue" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512">
+                                        <path fill="currentColor"
+                                            d="M259.3 17.8L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0z">
+                                        </path>
+                                    </svg>
 
-                </a>
-
-
-                <!--2eme img mettre resultat backround en css, texte en block 20% en bas-->
-                <a href="#" class="img_res">
-                    <span class="img2">&nbsp;</span>
-
-                    <figcaption>
-                        <h3>Hôtel du port</h3>
-                        <p>Nuit à partire de 52€</p>
-
-                        <p class="etoiles">
-                            <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="star" class="svg_star_blue" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512">
-                                    <path fill="currentColor"
-                                        d="M259.3 17.8L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0z">
-                                    </path>
-                                </svg>
-
-                            <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="star" class="svg_star_blue" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512">
-                                    <path fill="currentColor"
-                                        d="M259.3 17.8L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0z">
-                                    </path>
-                                </svg>
-
-                            <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="star" class="svg_star_blue" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512">
-                                    <path fill="currentColor"
-                                        d="M259.3 17.8L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0z">
-                                    </path>
-                                </svg>
-
-                            <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="star" class="svg_star_blue" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512">
-                                    <path fill="currentColor"
-                                        d="M259.3 17.8L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0z">
-                                    </path>
-                                </svg>
-
-                            <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="star" class="svg_star_blue" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512">
-                                    <path fill="currentColor"
-                                        d="M259.3 17.8L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0z">
-                                    </path>
-                                </svg>
-                        </p>
-                    </figcaption>
-
-                </a>
-
-                <!--3eme img mettre resultat backround en css, texte en block 20% en bas-->
-                <a href="#" class="img_res">
-                    <span class="img3">&nbsp;</span>
-
-                    <figcaption>
-                        <h3>Hôtel Les mouettes</h3>
-                        <p>Nuit à partire de 76€</p>
+                                    <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="star" class="svg_star_grey" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512">
+                                        <path fill="currentColor"
+                                            d="M259.3 17.8L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0z">
+                                        </path>
+                                    </svg>
+                                </p>
+                            </div>
 
 
-                        <p class="etoiles">
-                            <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="star" class="svg_star_blue" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512">
-                                    <path fill="currentColor"
-                                        d="M259.3 17.8L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0z">
-                                    </path>
-                                </svg>
-
-                            <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="star" class="svg_star_blue" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512">
-                                    <path fill="currentColor"
-                                        d="M259.3 17.8L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0z">
-                                    </path>
-                                </svg>
-
-                            <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="star" class="svg_star_blue" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512">
-                                    <path fill="currentColor"
-                                        d="M259.3 17.8L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0z">
-                                    </path>
-                                </svg>
-
-                            <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="star" class="svg_star_blue" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512">
-                                    <path fill="currentColor"
-                                        d="M259.3 17.8L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0z">
-                                    </path>
-                                </svg>
-
-                            <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="star" class="svg_star_grey" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512">
-                                    <path fill="currentColor"
-                                        d="M259.3 17.8L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0z">
-                                    </path>
-                                </svg>
-                        </p>
-                    </figcaption>
-
-                </a>
-                </span>
-
-                <!--4eme img mettre resultat backround en css, texte en block 20% en bas-->
-                <span>
-                    <a href="#" class="img_res">
-                        <span class="img4">&nbsp;</span>
+                        </a>
+                    </article>
 
 
-                <figcaption>
-                    <h3>Hôtel de la mer</h3>
-                    <p>Nuit à partire de 46€</p>
+                    <!--2eme img mettre resultat backround en css, texte en block 20% en bas-->
+                    <article>
+                        <a href="#" class="img_res">
+                            <span class="img2">&nbsp;</span>
 
-                    <p class="etoiles">
-                        <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="star" class="svg_star_blue" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512">
-                                    <path fill="currentColor"
-                                        d="M259.3 17.8L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0z">
-                                    </path>
-                                </svg>
+                            <div class="description">
+                                <h3>Hôtel du port</h3>
+                                <p>Nuit à partire de 52€</p>
 
-                        <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="star" class="svg_star_blue" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512">
-                                    <path fill="currentColor"
-                                        d="M259.3 17.8L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0z">
-                                    </path>
-                                </svg>
+                                <p class="etoiles">
+                                    <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="star" class="svg_star_blue" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512">
+                                        <path fill="currentColor"
+                                            d="M259.3 17.8L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0z">
+                                        </path>
+                                    </svg>
 
-                        <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="star" class="svg_star_blue" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512">
-                                    <path fill="currentColor"
-                                        d="M259.3 17.8L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0z">
-                                    </path>
-                                </svg>
+                                    <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="star" class="svg_star_blue" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512">
+                                        <path fill="currentColor"
+                                            d="M259.3 17.8L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0z">
+                                        </path>
+                                    </svg>
 
-                        <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="star" class="svg_star_grey" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512">
-                                    <path fill="currentColor"
-                                        d="M259.3 17.8L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0z">
-                                    </path>
-                                </svg>
+                                    <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="star" class="svg_star_blue" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512">
+                                        <path fill="currentColor"
+                                            d="M259.3 17.8L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0z">
+                                        </path>
+                                    </svg>
 
-                        <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="star" class="svg_star_grey" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512">
-                                    <path fill="currentColor"
-                                        d="M259.3 17.8L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0z">
-                                    </path>
-                                </svg>
-                    </p>
-                </figcaption>
+                                    <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="star" class="svg_star_blue" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512">
+                                        <path fill="currentColor"
+                                            d="M259.3 17.8L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0z">
+                                        </path>
+                                    </svg>
 
-                </a>
+                                    <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="star" class="svg_star_blue" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512">
+                                        <path fill="currentColor"
+                                            d="M259.3 17.8L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0z">
+                                        </path>
+                                    </svg>
+                                </p>
+                            </div>
 
-                <!--5eme img mettre resultat backround en css, texte en block 20% en bas-->
-                <a href="#" class="img_res">
-                    <span class="img5">&nbsp;</span>
+                        </a>
+                    </article>
 
-                    <figcaption>
-                        <h3>Auberge Le Panier</h3>
-                        <p>Nuit à partire de 23€</p>
+                    <!--3eme img mettre resultat backround en css, texte en block 20% en bas-->
+                    <article>
+                        <a href="#" class="img_res">
+                            <span class="img3">&nbsp;</span>
 
-                        <p class="etoiles">
-                            <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="star" class="svg_star_blue" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512">
-                                    <path fill="currentColor"
-                                        d="M259.3 17.8L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0z">
-                                    </path>
-                                </svg>
-
-                            <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="star" class="svg_star_blue" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512">
-                                    <path fill="currentColor"
-                                        d="M259.3 17.8L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0z">
-                                    </path>
-                                </svg>
-
-                            <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="star" class="svg_star_blue" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512">
-                                    <path fill="currentColor"
-                                        d="M259.3 17.8L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0z">
-                                    </path>
-                                </svg>
-
-                            <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="star" class="svg_star_blue" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512">
-                                    <path fill="currentColor"
-                                        d="M259.3 17.8L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0z">
-                                    </path>
-                                </svg>
-
-                            <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="star" class="svg_star_grey" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512">
-                                    <path fill="currentColor"
-                                        d="M259.3 17.8L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0z">
-                                    </path>
-                                </svg>
-                        </p>
-                    </figcaption>
-
-                </a>
-
-                <!--6eme img mettre resultat backround en css, texte en block 20% en bas-->
-                <a href="#" class="img_res">
-                    <span class="img6">&nbsp;</span>
-
-                    <figcaption>
-                        <h3>Hôtel chez Amina</h3>
-                        <p>Nuit à partire de 95€</p>
+                            <div class="description">
+                                <h3>Hôtel Les mouettes</h3>
+                                <p>Nuit à partire de 76€</p>
 
 
-                        <p class="etoiles">
-                            <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="star" class="svg_star_blue" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512">
-                                    <path fill="currentColor"
-                                        d="M259.3 17.8L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0z">
-                                    </path>
-                                </svg>
+                                <p class="etoiles">
+                                    <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="star" class="svg_star_blue" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512">
+                                        <path fill="currentColor"
+                                            d="M259.3 17.8L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0z">
+                                        </path>
+                                    </svg>
 
-                            <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="star" class="svg_star_blue" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512">
-                                    <path fill="currentColor"
-                                        d="M259.3 17.8L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0z">
-                                    </path>
-                                </svg>
+                                    <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="star" class="svg_star_blue" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512">
+                                        <path fill="currentColor"
+                                            d="M259.3 17.8L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0z">
+                                        </path>
+                                    </svg>
 
-                            <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="star" class="svg_star_blue" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512">
-                                    <path fill="currentColor"
-                                        d="M259.3 17.8L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0z">
-                                    </path>
-                                </svg>
+                                    <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="star" class="svg_star_blue" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512">
+                                        <path fill="currentColor"
+                                            d="M259.3 17.8L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0z">
+                                        </path>
+                                    </svg>
 
-                            <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="star" class="svg_star_blue" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512">
-                                    <path fill="currentColor"
-                                        d="M259.3 17.8L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0z">
-                                    </path>
-                                </svg>
+                                    <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="star" class="svg_star_blue" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512">
+                                        <path fill="currentColor"
+                                            d="M259.3 17.8L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0z">
+                                        </path>
+                                    </svg>
 
-                            <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="star" class="svg_star_blue" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512">
-                                    <path fill="currentColor"
-                                        d="M259.3 17.8L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0z">
-                                    </path>
-                                </svg>
-                        </p>
-                    </figcaption>
+                                    <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="star" class="svg_star_grey" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512">
+                                        <path fill="currentColor"
+                                            d="M259.3 17.8L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0z">
+                                        </path>
+                                    </svg>
+                                </p>
+                            </div>
 
-                </a>
-                </span>
+                        </a>
+                    </article>
+                </div>
+
+
+                <div class="second_line">
+                    <!--4eme img mettre resultat backround en css, texte en block 20% en bas-->
+
+                    <article>
+                        <a href="#" class="img_res">
+                            <span class="img4">&nbsp;</span>
+
+
+                            <div class="description">
+                                <h3>Hôtel de la mer</h3>
+                                <p>Nuit à partire de 46€</p>
+
+                                <p class="etoiles">
+                                    <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="star" class="svg_star_blue" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512">
+                                        <path fill="currentColor"
+                                            d="M259.3 17.8L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0z">
+                                        </path>
+                                    </svg>
+
+                                    <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="star" class="svg_star_blue" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512">
+                                        <path fill="currentColor"
+                                            d="M259.3 17.8L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0z">
+                                        </path>
+                                    </svg>
+
+                                    <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="star" class="svg_star_blue" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512">
+                                        <path fill="currentColor"
+                                            d="M259.3 17.8L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0z">
+                                        </path>
+                                    </svg>
+
+                                    <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="star" class="svg_star_grey" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512">
+                                        <path fill="currentColor"
+                                            d="M259.3 17.8L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0z">
+                                        </path>
+                                    </svg>
+
+                                    <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="star" class="svg_star_grey" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512">
+                                        <path fill="currentColor"
+                                            d="M259.3 17.8L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0z">
+                                        </path>
+                                    </svg>
+                                </p>
+                            </div>
+
+                        </a>
+                    </article>
+
+                    <!--5eme img mettre resultat backround en css, texte en block 20% en bas-->
+                    <article>
+                        <a href="#" class="img_res">
+                            <span class="img5">&nbsp;</span>
+
+                            <div class="description">
+                                <h3>Auberge Le Panier</h3>
+                                <p>Nuit à partire de 23€</p>
+
+                                <p class="etoiles">
+                                    <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="star" class="svg_star_blue" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512">
+                                        <path fill="currentColor"
+                                            d="M259.3 17.8L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0z">
+                                        </path>
+                                    </svg>
+
+                                    <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="star" class="svg_star_blue" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512">
+                                        <path fill="currentColor"
+                                            d="M259.3 17.8L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0z">
+                                        </path>
+                                    </svg>
+
+                                    <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="star" class="svg_star_blue" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512">
+                                        <path fill="currentColor"
+                                            d="M259.3 17.8L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0z">
+                                        </path>
+                                    </svg>
+
+                                    <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="star" class="svg_star_blue" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512">
+                                        <path fill="currentColor"
+                                            d="M259.3 17.8L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0z">
+                                        </path>
+                                    </svg>
+
+                                    <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="star" class="svg_star_grey" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512">
+                                        <path fill="currentColor"
+                                            d="M259.3 17.8L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0z">
+                                        </path>
+                                    </svg>
+                                </p>
+                            </div>
+
+                        </a>
+                    </article>
+
+                    <!--6eme img mettre resultat backround en css, texte en block 20% en bas-->
+                    <article>
+                        <a href="#" class="img_res">
+                            <span class="img6">&nbsp;</span>
+
+                            <div class="description">
+                                <h3>Hôtel chez Amina</h3>
+                                <p>Nuit à partire de 95€</p>
+
+
+                                <p class="etoiles">
+                                    <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="star" class="svg_star_blue" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512">
+                                        <path fill="currentColor"
+                                            d="M259.3 17.8L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0z">
+                                        </path>
+                                    </svg>
+
+                                    <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="star" class="svg_star_blue" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512">
+                                        <path fill="currentColor"
+                                            d="M259.3 17.8L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0z">
+                                        </path>
+                                    </svg>
+
+                                    <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="star" class="svg_star_blue" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512">
+                                        <path fill="currentColor"
+                                            d="M259.3 17.8L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0z">
+                                        </path>
+                                    </svg>
+
+                                    <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="star" class="svg_star_blue" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512">
+                                        <path fill="currentColor"
+                                            d="M259.3 17.8L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0z">
+                                        </path>
+                                    </svg>
+
+                                    <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="star" class="svg_star_blue" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512">
+                                        <path fill="currentColor"
+                                            d="M259.3 17.8L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0z">
+                                        </path>
+                                    </svg>
+                                </p>
+                            </div>
+
+                        </a>
+                    </article>
+                </div>
             </div>
 
             <p class="boutton_plus">
@@ -394,7 +412,7 @@
         </div>
 
 
-        <article id="titre_populaire">
+        <aside id="titre_populaire">
             <h2><span>Les plus populaires</span>
                 <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="chart-line" class="svg_chart_line" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
                     <path fill="currentColor"
@@ -408,140 +426,146 @@
 
 
                 <!--1ere img mettre backround en css, texte en block 50% à droite-->
-                <a href="#" class="pub_img_pop">
-                    <span class="img1">&nbsp;</span>
+                <article>
+                    <a href="#" class="pub_img_pop">
+                        <span class="img1">&nbsp;</span>
 
-                    <figcaption>
-                        <h3>Hôtel le soleil du matin </h3>
-                        <p>Nuit à partire de 128€</p>
+                        <div class="description">
+                            <h3>Hôtel le soleil du matin </h3>
+                            <p>Nuit à partire de 128€</p>
 
 
-                        <p class="etoiles">
-                            <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="star" class="svg_star_blue" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512">
-                                <path fill="currentColor"
-                                    d="M259.3 17.8L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0z">
-                                </path>
-                            </svg>
+                            <p class="etoiles">
+                                <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="star" class="svg_star_blue" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512">
+                                    <path fill="currentColor"
+                                        d="M259.3 17.8L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0z">
+                                    </path>
+                                </svg>
 
-                            <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="star" class="svg_star_blue" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512">
-                                <path fill="currentColor"
-                                    d="M259.3 17.8L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0z">
-                                </path>
-                            </svg>
+                                <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="star" class="svg_star_blue" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512">
+                                    <path fill="currentColor"
+                                        d="M259.3 17.8L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0z">
+                                    </path>
+                                </svg>
 
-                            <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="star" class="svg_star_blue" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512">
-                                <path fill="currentColor"
-                                    d="M259.3 17.8L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0z">
-                                </path>
-                            </svg>
+                                <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="star" class="svg_star_blue" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512">
+                                    <path fill="currentColor"
+                                        d="M259.3 17.8L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0z">
+                                    </path>
+                                </svg>
 
-                            <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="star" class="svg_star_blue" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512">
-                                <path fill="currentColor"
-                                    d="M259.3 17.8L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0z">
-                                </path>
-                            </svg>
+                                <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="star" class="svg_star_blue" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512">
+                                    <path fill="currentColor"
+                                        d="M259.3 17.8L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0z">
+                                    </path>
+                                </svg>
 
-                            <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="star" class="svg_star_blue" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512">
-                                <path fill="currentColor"
-                                    d="M259.3 17.8L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0z">
-                                </path>
-                            </svg>
-                        </p>
-                    </figcaption>
+                                <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="star" class="svg_star_blue" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512">
+                                    <path fill="currentColor"
+                                        d="M259.3 17.8L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0z">
+                                    </path>
+                                </svg>
+                            </p>
+                        </div>
 
-                </a>
+                    </a>
+                </article>
 
                 <!--2eme img mettre backround en css, texte en block 50% à droite-->
-                <a href="#" class="pub_img_pop">
-                    <span class="img2">&nbsp;</span>
+                <article>
+                    <a href="#" class="pub_img_pop">
+                        <span class="img2">&nbsp;</span>
 
-                    <figcaption>
-                        <h3>Au coeur de l'eau<br /> Chambres d'hôtes</h3>
-                        <p>Nuit à partire de 71€</p>
+                        <div class="description">
+                            <h3>Au coeur de l'eau<br /> Chambres d'hôtes</h3>
+                            <p>Nuit à partire de 71€</p>
 
 
-                        <p class="etoiles">
-                            <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="star" class="svg_star_blue" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512">
-                                <path fill="currentColor"
-                                    d="M259.3 17.8L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0z">
-                                </path>
-                            </svg>
+                            <p class="etoiles">
+                                <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="star" class="svg_star_blue" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512">
+                                    <path fill="currentColor"
+                                        d="M259.3 17.8L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0z">
+                                    </path>
+                                </svg>
 
-                            <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="star" class="svg_star_blue" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512">
-                                <path fill="currentColor"
-                                    d="M259.3 17.8L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0z">
-                                </path>
-                            </svg>
+                                <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="star" class="svg_star_blue" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512">
+                                    <path fill="currentColor"
+                                        d="M259.3 17.8L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0z">
+                                    </path>
+                                </svg>
 
-                            <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="star" class="svg_star_blue" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512">
-                                <path fill="currentColor"
-                                    d="M259.3 17.8L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0z">
-                                </path>
-                            </svg>
+                                <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="star" class="svg_star_blue" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512">
+                                    <path fill="currentColor"
+                                        d="M259.3 17.8L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0z">
+                                    </path>
+                                </svg>
 
-                            <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="star" class="svg_star_blue" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512">
-                                <path fill="currentColor"
-                                    d="M259.3 17.8L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0z">
-                                </path>
-                            </svg>
+                                <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="star" class="svg_star_blue" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512">
+                                    <path fill="currentColor"
+                                        d="M259.3 17.8L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0z">
+                                    </path>
+                                </svg>
 
-                            <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="star" class="svg_star_grey" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512">
-                                <path fill="currentColor"
-                                    d="M259.3 17.8L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0z">
-                                </path>
-                            </svg>
+                                <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="star" class="svg_star_grey" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512">
+                                    <path fill="currentColor"
+                                        d="M259.3 17.8L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0z">
+                                    </path>
+                                </svg>
 
-                        </p>
-                    </figcaption>
+                            </p>
+                        </div>
 
-                </a>
+                    </a>
+                </article>
 
                 <!--3eme img mettre backround en css, texte en block 50% à droite-->
-                <a href="#" class="pub_img_pop">
-                    <span class="img3">&nbsp;</span>
+                <article>
+                    <a href="#" class="pub_img_pop">
+                        <span class="img3">&nbsp;</span>
 
-                    <figcaption>
-                        <h3>Hôtel Tout bleu et Blanc</h3>
-                        <p>Nuit à partire de 68€</p>
+                        <div class="description">
+                            <h3>Hôtel Tout bleu et Blanc</h3>
+                            <p>Nuit à partire de 68€</p>
 
 
-                        <p class="etoiles">
-                            <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="star" class="svg_star_blue" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512">
-                                <path fill="currentColor"
-                                    d="M259.3 17.8L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0z">
-                                </path>
-                            </svg>
+                            <p class="etoiles">
+                                <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="star" class="svg_star_blue" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512">
+                                    <path fill="currentColor"
+                                        d="M259.3 17.8L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0z">
+                                    </path>
+                                </svg>
 
-                            <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="star" class="svg_star_blue" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512">
-                                <path fill="currentColor"
-                                    d="M259.3 17.8L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0z">
-                                </path>
-                            </svg>
+                                <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="star" class="svg_star_blue" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512">
+                                    <path fill="currentColor"
+                                        d="M259.3 17.8L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0z">
+                                    </path>
+                                </svg>
 
-                            <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="star" class="svg_star_blue" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512">
-                                <path fill="currentColor"
-                                    d="M259.3 17.8L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0z">
-                                </path>
-                            </svg>
+                                <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="star" class="svg_star_blue" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512">
+                                    <path fill="currentColor"
+                                        d="M259.3 17.8L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0z">
+                                    </path>
+                                </svg>
 
-                            <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="star" class="svg_star_blue" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512">
-                                <path fill="currentColor"
-                                    d="M259.3 17.8L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0z">
-                                </path>
-                            </svg>
+                                <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="star" class="svg_star_blue" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512">
+                                    <path fill="currentColor"
+                                        d="M259.3 17.8L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0z">
+                                    </path>
+                                </svg>
 
-                            <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="star" class="svg_star_grey" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512">
-                                <path fill="currentColor"
-                                    d="M259.3 17.8L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0z">
-                                </path>
-                            </svg>
-                        </p>
-                    </figcaption>
+                                <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="star" class="svg_star_grey" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512">
+                                    <path fill="currentColor"
+                                        d="M259.3 17.8L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0z">
+                                    </path>
+                                </svg>
+                            </p>
+                        </div>
 
-                </a>
+                    </a>
+                </article>
 
             </div>
-        </article>
+        </aside>
     </section>
 
     <!-- Section 2 Activités à Marseille -->
@@ -549,67 +573,79 @@
         <h2><span> Activités à Marseille</span></h2>
 
         <!--4 columns avec photos clicables-->
-        <article class="img_activites">
+        <div class="img_activites">
 
             <!--1 photo, text  below -->
-            <a href="#" class="img_activ_big">
-                <span class="img1">&nbsp;</span>
+            <article>
+                <a href="#" class="img_activ_big">
+                    <span class="img1">&nbsp;</span>
 
 
-                <figcaption>
-                    Vieux port
-                </figcaption>
+                    <h3>
+                        Vieux port
+                    </h3>
 
-            </a>
+                </a>
+            </article>
 
             <!--2photos photo -->
             <div class="block_img_small">
 
-                <a href="#" class="img_activ_small">
-                    <span class="img2">&nbsp;</span>
+                <article>
+                    <a href="#" class="img_activ_small">
+                        <span class="img2">&nbsp;</span>
 
 
-                    <figcaption>
-                        Fort de Pomégues
-                    </figcaption>
+                        <h3>
+                            Fort de Pomégues
+                        </h3>
 
-                </a>
+                    </a>
+                </article>
 
-                <a href="#" class="img_activ_small">
-                    <span class="img3">&nbsp;</span>
+                <article>
+                    <a href="#" class="img_activ_small">
+                        <span class="img3">&nbsp;</span>
 
-                    <figcaption>Iles du Frioul</figcaption>
+                        <h3>Iles du Frioul</h3>
 
-                </a>
+                    </a>
+                </article>
             </div>
 
             <!--1 photo -->
-            <a href="#" class="img_activ_big">
-                <span class="img4">&nbsp;</span>
+            <article>
+                <a href="#" class="img_activ_big">
+                    <span class="img4">&nbsp;</span>
 
-                <figcaption>Parc National des Calanques</figcaption>
+                    <h3>Parc National des Calanques</h3>
 
-            </a>
+                </a>
+            </article>
 
             <div class="block_img_small">
                 <!--2photos photo -->
-                <a href="#" class="img_activ_small">
-                    <span class="img5">&nbsp;</span>
+                <article>
+                    <a href="#" class="img_activ_small">
+                        <span class="img5">&nbsp;</span>
 
 
-                    <figcaption>Notre-Dame-de-la-Garde</figcaption>
+                        <h3>Notre-Dame-de-la-Garde</h3>
 
-                </a>
+                    </a>
+                </article>
 
-                <a href="#" class="img_activ_small">
-                    <span class="img6">&nbsp;</span>
+                <article>
+                    <a href="#" class="img_activ_small">
+                        <span class="img6">&nbsp;</span>
 
 
-                    <figcaption>Parc Longchamp</figcaption>
+                        <h3>Parc Longchamp</h3>
 
-                </a>
+                    </a>
+                </article>
             </div>
-        </article>
+        </div>
     </section>
 
 
