@@ -70,7 +70,7 @@ li:hover {
 
 /*header version mobile*/
 
-@media all and (max-width: 479px) {
+@media all and (max-width: 737px) {
     header {
         position: relative;
         margin-top: 20px;
@@ -194,7 +194,7 @@ li:hover {
     display: none;
 }
 
-@media all and (max-width: 479px) {
+@media all and (max-width: 736px) {
     section {
         margin-left: 0;
         margin-right: 0;
@@ -222,6 +222,10 @@ li:hover {
         background-color: #0065FC;
         background-image: url('images/search-solid.svg');
         width: 50px;
+        background-repeat: no-repeat;
+        background-position: 50%;
+        border-top-left-radius: 30%;
+        border-bottom-left-radius: 30%;
     }
 }
 
@@ -281,21 +285,17 @@ li:hover {
     margin-right: 5px;
 }
 
-@media (min-width: 480px) and (max-width: 1024px) {
+@media (min-width: 737px) and (max-width: 1024px) {
     #blockfiltre {
         display: flex;
         flex-direction: column;
         justify-content: left;
         font-size: 0.8em;
+        align-items: unset;
     }
     .word {
-        display: block;
-        width: auto;
         font-size: 1.2em;
         margin-bottom: 10px;
-        position: relative;
-        left: -300px;
-        justify-content: left;
     }
     .tous_filtre {
         display: flex;
@@ -307,21 +307,17 @@ li:hover {
     }
 }
 
-@media all and (max-width: 479px) {
+@media all and (max-width: 736px) {
     #blockfiltre {
         display: flex;
         flex-direction: column;
         justify-content: left;
         font-size: 0.8em;
+        align-items: unset;
     }
     .word {
-        display: block;
-        width: auto;
         font-size: 1.2em;
         margin-bottom: 10px;
-        position: relative;
-        left: -123px;
-        justify-content: left;
     }
     .tous_filtre {
         display: flex;
@@ -354,7 +350,7 @@ li:hover {
     margin-right: 5px;
 }
 
-@media (min-width: 480px) and (max-width: 1024px) {
+@media (min-width: 737px) and (max-width: 1024px) {
     .infobule {
         padding-left: 0;
         padding-right: 0;
@@ -363,7 +359,7 @@ li:hover {
     }
 }
 
-@media all and (max-width: 479px) {
+@media all and (max-width: 736px) {
     .infobule {
         padding-left: 0;
         padding-right: 0;
@@ -406,7 +402,7 @@ li:hover {
 
 .img_res {
     display: block;
-    border: 5px solid white;
+    padding: 5px;
     border-radius: 30px;
     background-color: white;
     box-shadow: 6px 6px 6px #E7E7E7;
@@ -420,45 +416,41 @@ li:hover {
 }
 
 .img_res span.img1 {
-    display: block;
     background-image: url('images/hebergements/250_px/Background.jpg');
-    height: 115px;
-    background-size: cover;
 }
 
 .img_res span.img2 {
-    display: block;
     background-image: url('images/hebergements/250_px/hotel_du_port.jpg');
-    height: 115px;
-    background-size: cover;
 }
 
 .img_res span.img3 {
-    display: block;
     background-image: url('images/hebergements/250_px/les_mouettes.jpg');
-    height: 115px;
-    background-size: cover;
 }
 
 .img_res span.img4 {
-    display: block;
     background-image: url('images/hebergements/250_px/de_la_mer.jpg');
-    height: 115px;
-    background-size: cover;
 }
 
 .img_res span.img5 {
-    display: block;
     background-image: url('images/hebergements/250_px/le_panier.jpg');
-    height: 115px;
-    background-size: cover;
 }
 
 .img_res span.img6 {
-    display: block;
     background-image: url('images/hebergements/250_px/chez_amina.jpg');
+}
+
+.img_res span.img1,
+.img_res span.img2,
+.img_res span.img3,
+.img_res span.img4,
+.img_res span.img5,
+.img_res span.img6 {
+    display: block;
     height: 115px;
     background-size: cover;
+    background-position: 50%;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
 }
 
 .img_res h3 {
@@ -498,7 +490,15 @@ div.description {
     height: 20px;
 }
 
-@media (min-width: 480px) and (max-width: 1024px) {
+@media (min-width: 737px) and (max-width: 1024px) {
+    .img_res span.img1,
+    .img_res span.img2,
+    .img_res span.img3,
+    .img_res span.img4,
+    .img_res span.img5,
+    .img_res span.img6 {
+        border
+    }
     #hebergement {
         margin-bottom: 2em;
         padding-left: 35px;
@@ -519,7 +519,7 @@ div.description {
     }
 }
 
-@media all and (max-width: 479px) {
+@media all and (max-width: 736px) {
     #result_search {
         display: flex;
         flex-direction: column-reverse;
@@ -546,19 +546,27 @@ div.description {
     #img_resultat div.second_line {
         flex-direction: column;
     }
+    .img_res h3 {
+        font-size: 1em;
+        margin-bottom: 5px;
+    }
+    .img_res p {
+        font-size: 0.8em;
+        margin-bottom: 5px;
+    }
 }
 
 
 /*populaire*/
 
-#titre_populaire {
+aside#titre_populaire {
+    display: block;
     border-radius: 30px;
     background-color: #F2F2F2;
-    margin-left: 15px;
     padding-top: 45px;
     padding-left: 35px;
     padding-right: 35px;
-    width: 350px;
+    margin-left: 50px;
 }
 
 #titre_populaire h2 {
@@ -573,8 +581,8 @@ div.description {
 
 .pub_img_pop {
     display: flex;
-    border: 5px solid white;
-    border-radius: 30px;
+    padding: 5px;
+    border-radius: 35px;
     background-color: white;
     box-shadow: 6px 6px 6px #E7E7E7;
     overflow: hidden;
@@ -593,6 +601,8 @@ div.description {
     background-image: url('images/hebergements/335_px/hotel_le_soleil_du_matin.jpg');
     width: 133px;
     background-size: cover;
+    border-bottom-left-radius: 30px;
+    border-top-left-radius: 30px;
 }
 
 .pub_img_pop span.img2 {
@@ -600,6 +610,8 @@ div.description {
     background-image: url('images/hebergements/335_px/au_coeur.jpg');
     width: 133px;
     background-size: cover;
+    border-bottom-left-radius: 30px;
+    border-top-left-radius: 30px;
 }
 
 .pub_img_pop span.img3 {
@@ -607,27 +619,35 @@ div.description {
     background-image: url('images/hebergements/335_px/tout_bleu.jpg');
     width: 133px;
     background-size: cover;
+    border-bottom-left-radius: 30px;
+    border-top-left-radius: 30px;
 }
 
 .pub_img_pop p.etoiles {
     margin-top: 30px;
 }
 
-@media (min-width: 480px) and (max-width: 1024px) {
-    #titre_populaire {
+@media (min-width: 737px) and (max-width: 1024px) {
+    aside {
         width: auto;
         padding-left: 20px;
         padding-right: 20px;
         margin-left: 0;
     }
+    aside#titre_populaire {
+        width: auto;
+        justify-content: center;
+        margin-left: 0;
+    }
     .image_populaire {
         display: flex;
-        justify-content: space-between;
+        justify-content: center;
+        /*flex-direction: column;*/
     }
     .pub_img_pop {
         display: block;
         height: 190px;
-        width: 210px;
+        width: 190px;
         margin-bottom: 20px;
     }
     .pub_img_pop span.img1,
@@ -636,6 +656,7 @@ div.description {
         height: 115px;
         background-size: cover;
         width: auto;
+        background-position-y: center
     }
     .pub_img_pop div.description {
         width: auto;
@@ -646,25 +667,31 @@ div.description {
         margin-top: 2px;
     }
     .image_populaire .pub_img_pop:first-child {
-        margin-right: 20px;
+        margin-right: 10px;
     }
     .image_populaire .pub_img_pop:last-child {
-        margin-left: 20px;
+        margin-left: 10px;
     }
 }
 
-@media all and (max-width: 479px) {
-    #titre_populaire {
-        border-radius: 0;
+@media all and (max-width: 736px) {
+    aside#titre_populaire {
         margin-left: 0px;
         padding-top: 45px;
         padding-left: 20px;
         padding-right: 20px;
         width: auto;
+        border-radius: 0%;
+    }
+    aside h2 {
+        margin-bottom: 1.3em;
+    }
+    .pub_img_pop {
+        height: 122px;
     }
     .image_populaire {
         width: auto;
-        height: 147px;
+        /*height: 147px;*/
     }
     .image_populaire:last-child {
         margin-bottom: 20px;
@@ -696,7 +723,7 @@ div.description {
 }
 
 .img_activites article {
-    border: 5px solid white;
+    padding: 5px;
     border-radius: 30px;
     background-color: white;
     box-shadow: 6px 6px 6px #E7E7E7;
@@ -706,21 +733,15 @@ div.description {
 }
 
 .img_activ_big span.img1 {
-    display: block;
     background-image: url('images/activites/port.jpg');
     width: 295px;
     height: 390px;
-    background-size: cover;
-    margin-bottom: 15px;
 }
 
 .img_activ_big span.img4 {
-    display: block;
     background-image: url('images/activites/calanques.jpg');
     width: 300px;
     height: 390px;
-    background-size: cover;
-    margin-bottom: 15px;
 }
 
 .block_img_small {
@@ -730,44 +751,46 @@ div.description {
 }
 
 .img_activ_small span.img2 {
-    display: block;
     background-image: url('images/activites/pomegues.jpg');
     height: 180px;
     width: 305px;
-    background-size: cover;
-    margin-bottom: 15px;
 }
 
 .img_activ_small span.img3 {
-    display: block;
     background-image: url('images/activites/frioul.jpg');
     height: 110px;
-    background-size: cover;
-    margin-bottom: 15px;
 }
 
 .img_activ_small span.img5 {
-    display: block;
     background-image: url('images/activites/notre_dame.jpg');
     height: 140px;
     width: 305px;
-    background-size: cover;
-    margin-bottom: 15px;
 }
 
 .img_activ_small span.img6 {
-    display: block;
     background-image: url('images/activites/longchamp.jpg');
     height: 152px;
     width: 305px;
-    background-size: cover;
-    margin-bottom: 15px;
 }
 
-@media (min-width: 480px) and (max-width: 1024px) {
+.img_activ_big span.img1,
+.img_activ_big span.img4,
+.img_activ_small span.img2,
+.img_activ_small span.img3,
+.img_activ_small span.img5,
+.img_activ_small span.img6 {
+    display: block;
+    background-size: cover;
+    margin-bottom: 15px;
+    border-top-right-radius: 30px;
+    border-top-left-radius: 30px;
+    background-position: 50%;
+}
+
+@media (min-width: 737px) and (max-width: 1024px) {
     .img_activites {
-        width: 305px;
-        height: 174px;
+        flex-direction: column;
+        align-items: center;
     }
     .img_activ_small span.img2,
     .img_activ_small span.img3,
@@ -780,42 +803,32 @@ div.description {
     .boutton_plus {
         margin-left: 20px;
     }
-    .img_activ_big,
-    .img_activ_small {
-        margin-bottom: 1em;
-        margin-right: 10px;
-    }
-    .img_activites .img_activ_big:first-child {
-        position: absolute;
-        top: 2200px;
-        left: 50px;
-        width: 280px;
-    }
-    .img_activites .img_activ_big:nth-child(3) {
-        position: absolute;
-        top: 2200px;
-        left: 420px;
-        width: 280px;
-    }
     .img_activ_big span.img1,
     .img_activ_big span.img4 {
         width: 280px;
         height: 110px;
         background-position-y: center;
     }
-    .img_activ_big div.description {
+    /*.img_activ_big,
+    .img_activ_small {
+        margin-bottom: 1em;
+        margin-right: 10px;
+    }*/
+    /*.img_activ_big div.description {
         width: 280px;
+    }*/
+    .img_activites article {
+        margin-bottom: 1em;
+    }
+    a.pub_img_pop h3 {
+        font-size: 1em;
     }
 }
 
-@media all and (max-width: 479px) {
+@media all and (max-width: 736px) {
     .img_activites {
         flex-direction: column;
         align-items: center;
-    }
-    .img_activites {
-        width: 305px;
-        height: 174px;
     }
     .img_activ_big span.img1,
     .img_activ_big span.img4,
@@ -830,9 +843,11 @@ div.description {
     .boutton_plus {
         margin-left: 20px;
     }
-    .img_activ_big,
-    .img_activ_small {
+    .img_activites article {
         margin-bottom: 1em;
+    }
+    a.pub_img_pop h3 {
+        font-size: 1em;
     }
 }
 
@@ -844,6 +859,7 @@ footer {
     display: flex;
     flex-direction: row;
     height: 215px;
+    color: black;
 }
 
 footer .a_propos,
@@ -867,11 +883,10 @@ footer .a_propos {
     margin-left: 50px;
 }
 
-@media (min-width: 480px) and (max-width: 1024px) {
+@media (min-width: 737px) and (max-width: 1024px) {
     footer {
         height: auto;
         justify-content: space-between;
-        margin-top: 200px;
         padding-bottom: 25px;
     }
     footer .a_propos,
@@ -881,11 +896,14 @@ footer .a_propos {
     }
 }
 
-@media all and (max-width:479px) {
+@media all and (max-width:736px) {
     footer {
         flex-direction: column;
         height: auto;
         background-color: #F2F2F2;
+    }
+    footer a:visited {
+        color: black;
     }
     footer .a_propos,
     footer .nos_hebergements,
