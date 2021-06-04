@@ -149,13 +149,7 @@ li:hover {
 }
 
 .bouton_recherche {
-    max-width: 425px;
-    height: 50px;
     display: flex;
-    justify-content: space-between;
-    border: 1px solid #F2F2F2;
-    border-bottom-left-radius: 15px;
-    border-top-left-radius: 15px;
 }
 
 .svg_map {
@@ -174,7 +168,8 @@ li:hover {
     font-family: 'Raleway';
     padding-left: 5px;
     color: black;
-    width: 160px;
+    border-top: 1px solid #F2F2F2;
+    border-bottom: 1px solid #F2F2F2;
 }
 
 .bouton,
@@ -209,8 +204,7 @@ li:hover {
         margin-left: 20px;
     }
     .bouton_recherche {
-        margin-left: 20px;
-        margin-right: 20px;
+        justify-content: center;
     }
     .bouton {
         padding: 0;
@@ -491,14 +485,6 @@ div.description {
 }
 
 @media (min-width: 737px) and (max-width: 1024px) {
-    .img_res span.img1,
-    .img_res span.img2,
-    .img_res span.img3,
-    .img_res span.img4,
-    .img_res span.img5,
-    .img_res span.img6 {
-        border
-    }
     #hebergement {
         margin-bottom: 2em;
         padding-left: 35px;
@@ -512,6 +498,7 @@ div.description {
     }
     #img_resultat {
         flex-direction: row;
+        justify-content: space-evenly;
     }
     #img_resultat div.first_line,
     #img_resultat div.second_line {
@@ -641,8 +628,7 @@ aside#titre_populaire {
     }
     .image_populaire {
         display: flex;
-        justify-content: center;
-        /*flex-direction: column;*/
+        justify-content: space-evenly;
     }
     .pub_img_pop {
         display: block;
@@ -656,7 +642,9 @@ aside#titre_populaire {
         height: 115px;
         background-size: cover;
         width: auto;
-        background-position-y: center
+        background-position-y: center;
+        border-bottom-left-radius: 0%;
+        border-top-right-radius: 30px;
     }
     .pub_img_pop div.description {
         width: auto;
@@ -691,7 +679,6 @@ aside#titre_populaire {
     }
     .image_populaire {
         width: auto;
-        /*height: 147px;*/
     }
     .image_populaire:last-child {
         margin-bottom: 20px;
@@ -809,14 +796,6 @@ aside#titre_populaire {
         height: 110px;
         background-position-y: center;
     }
-    /*.img_activ_big,
-    .img_activ_small {
-        margin-bottom: 1em;
-        margin-right: 10px;
-    }*/
-    /*.img_activ_big div.description {
-        width: 280px;
-    }*/
     .img_activites article {
         margin-bottom: 1em;
     }
@@ -866,6 +845,11 @@ footer .a_propos,
 footer .nos_hebergements,
 footer .assistance {
     padding-right: 225px;
+}
+
+footer a,
+footer a:visited {
+    color: black;
 }
 
 footer h2 {
