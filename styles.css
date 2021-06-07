@@ -47,13 +47,19 @@ li {
 }
 
 li:hover {
-    color: #0065FC;
     border-top: solid #0065FC;
+}
+
+li a {
+    color: black;
+}
+
+li a:hover {
+    color: #0065FC;
 }
 
 .liens nav ul {
     display: flex;
-    color: #101010;
 }
 
 .inscription {
@@ -70,7 +76,17 @@ li:hover {
 
 /*header version mobile*/
 
-@media all and (max-width: 737px) {
+@media (min-width: 737px) and (max-width: 1024px) {
+    li:hover {
+        color: black;
+        border-top: none;
+    }
+    .inscription:hover {
+        border-top: none;
+    }
+}
+
+@media all and (max-width: 736px) {
     header {
         position: relative;
         margin-top: 20px;
@@ -122,6 +138,13 @@ li:hover {
     }
     .inscription:hover {
         border: none;
+    }
+    li:hover {
+        color: black;
+        border-top: none;
+    }
+    .inscription:hover {
+        border-top: none;
     }
 }
 
